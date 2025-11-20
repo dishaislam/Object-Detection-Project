@@ -31,6 +31,50 @@ A full-stack AI web application that allows users to upload images, run object d
 - Separate containers for frontend, backend, and database
 - Volume mounts for data persistence
 
+## Technical Choices & Rationale
+
+### Why Next.js?
+- **Server-Side Rendering** - Better SEO and initial load times
+- **TypeScript Support** - Type safety and better developer experience
+- **File-based Routing** - Intuitive and organized
+- **React 18 Features** - Latest performance optimizations
+
+### Why FastAPI?
+- **Async Support** - Handles concurrent requests efficiently
+- **Automatic API Docs** - Built-in Swagger UI
+- **Type Validation** - Pydantic for request/response validation
+- **Fast Performance** - One of the fastest Python frameworks
+
+### Why YOLOv8?
+- **State-of-the-Art** - Latest version with improved accuracy
+- **Fast Inference** - Real-time detection (~200ms per image)
+- **Pre-trained Models** - Ready to use, no training needed
+- **80 Object Classes** - Comprehensive COCO dataset coverage
+
+### Why Gemini AI?
+- **Context Understanding** - Excellent at analyzing structured data
+- **Free Tier** - Generous limits (15 RPM, 1M TPM)
+- **Fast Responses** - Low latency (~1-2s)
+- **Easy Integration** - Simple Python SDK
+
+### Why Docker?
+- **Consistency** - Same environment everywhere
+- **Easy Setup** - One command to run entire stack
+- **Isolation** - Dependencies don't conflict
+- **Production-Ready** - Easy to deploy to cloud
+
+### Why SQLite?
+- **Zero Configuration** - No separate database server
+- **File-Based** - Easy backups and portability
+- **Sufficient for Scale** - Handles thousands of users
+- **Easy Migration** - Can upgrade to PostgreSQL later
+
+### Why JWT Authentication?
+- **Stateless** - No server-side session storage
+- **Scalable** - Works across multiple servers
+- **Secure** - Industry-standard with bcrypt hashing
+- **Cross-Domain** - Works with separate frontend/backend
+
 ## Technical Stack
 
 - **Frontend**: Next.js, React, TypeScript, Tailwind CSS
