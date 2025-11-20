@@ -47,7 +47,7 @@ A full-stack AI web application that allows users to upload images, run object d
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/dishaislam/Object-Detection-Project.git
    cd yolo-detection-app
    ```
 
@@ -185,10 +185,4 @@ npm run dev
 - Multiple YOLO model support
 - Real-time webcam detection
 
-## License
-
-MIT License
-
-## Author
-
-Created as part of a Full Stack AI Developer assignment.
+Sharmin Islam Disha 
