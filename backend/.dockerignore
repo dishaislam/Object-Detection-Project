@@ -1,0 +1,14 @@
+*.pt
+*.pth
+*.onnx
+*.zip
+*.tar
+*.tar.gz
+*.mp4
+*.avi
+*.mov
+__pycache__/
+data/
+datasets/
+weights/
+models/
